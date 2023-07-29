@@ -1,0 +1,51 @@
+.friendsListSec {
+margin-top: 200px;
+}
+
+.friendsList {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    gap: 30px;
+    height: 60px;
+    background-color: #ad5389;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    transition: all 200ms;
+    box-shadow: 2px 6px 31px 0px rgba(169,28,175,0.75);
+}
+
+.item:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 6px 31px 9px rgba(169,28,175,0.75);
+}
+
+.status {
+ width: 15px;
+ height: 15px;
+ border-radius: 50%;
+ border: black 0.5px solid;
+ opacity: 0.5;
+}
+
+.avatar {
+
+}
+
+.name {
+    min-width: 50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
